@@ -7,6 +7,7 @@
 //
 
 import UIKit
+
 class Meal{
     
     var name:String
@@ -14,6 +15,7 @@ class Meal{
     var rating:Int
     
     init?(name:String, photo:UIImage?, rating:Int) {
+        
         // The name must not be empty
         guard !name.isEmpty else {
             return nil

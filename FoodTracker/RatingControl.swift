@@ -21,12 +21,13 @@ import UIKit
         }
     }
     
-    private var ratingButtons = [UIButton]()
     var rating = 0{
         didSet{
             updateButtonSelectionStates()
         }
     }
+    
+    private var ratingButtons = [UIButton]()
     
     override init(frame: CGRect) {
         super.init(frame: frame)

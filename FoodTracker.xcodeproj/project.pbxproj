@@ -86,13 +86,13 @@
 			isa = PBXGroup;
 			children = (
 				72A986D51F13521D0022E0FC /* AppDelegate.swift */,
-				72A986D71F13521D0022E0FC /* MealViewController.swift */,
 				72A986F51F160F6D0022E0FC /* RatingControl.swift */,
+				72A986D71F13521D0022E0FC /* MealViewController.swift */,
 				72A987011F1792730022E0FC /* MealTableViewController.swift */,
 				72A986F91F177D680022E0FC /* MealTableViewCell.swift */,
 				72A986F71F163D760022E0FC /* Meal.swift */,
-				72A986D91F13521E0022E0FC /* Main.storyboard */,
 				72A986DC1F13521E0022E0FC /* Assets.xcassets */,
+				72A986D91F13521E0022E0FC /* Main.storyboard */,
 				72A986DE1F13521E0022E0FC /* LaunchScreen.storyboard */,
 				72A986E11F13521E0022E0FC /* Info.plist */,
 			);
@@ -357,7 +357,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yintro.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,7 +371,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yintro.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,6 +428,7 @@
 				72A986F11F13521E0022E0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72A986F21F13521E0022E0FC /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				72A986F41F13521E0022E0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
