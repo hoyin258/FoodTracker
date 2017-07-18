@@ -1,11 +1,2 @@
-os: osx
 language: swift
-
-branches:
-  only:
-    - master
-
-notifications:
-  email:
-    on_success: change
-    on_failure: always
+os: osx
