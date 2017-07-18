@@ -1,0 +1,16 @@
+osx_image: xcode8.3
+
+language: objective-c
+
+xcode_project: FoodTracker.xcodeproj
+xcode_scheme: FoodTracker
+xcode_sdk: iphonesimulator10.2
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
